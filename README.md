@@ -188,3 +188,28 @@ Remove unnecessary instructional comments in your final version of this README.m
 ![Provide a Useful Caption](./docs/images/Figure_2.png)
 
 ![Provide a Useful Caption](./docs/images/Figure_3.png)
+
+Project Process by Parks
+
+For this project, I created and ran my EDA notebook using the penguins dataset in VS Code. I opened the notebook, selected the .venv kernel, and ran all cells to complete the analysis. The notebook includes summary statistics, missing value checks, and data visualizations.
+
+I also ran the example Python module from the terminal and reviewed the output charts and the project.log file.
+
+Commands Used
+
+Clone the repository:
+
+git clone https://github.com/parkslarryjr/datafun-04-notebooks
+
+Run the example Python module:
+
+uv run python -m datafun.app_case
+
+Run pre-commit hooks:
+
+uvx pre-commit install
+uvx pre-commit run --all-files
+
+Set up the Python environment:
+
+uv sync --extra dev --extra docs --upgrade
