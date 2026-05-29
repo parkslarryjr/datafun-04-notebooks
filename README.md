@@ -189,6 +189,10 @@ Remove unnecessary instructional comments in your final version of this README.m
 
 ![Provide a Useful Caption](./docs/images/Figure_3.png)
 
+[Penguin Body Mass Histogram](./docs/images/Figure_4.png)
+
+This histogram shows that penguin body mass is moderately concentrated in the mid-range, with fewer observations at the low and high extremes. This helps confirm that the dataset has a fairly balanced but slightly centered distribution.
+
 Project Process by Parks
 
 For this project, I created and ran my EDA notebook using the penguins dataset in VS Code. I opened the notebook, selected the .venv kernel, and ran all cells to complete the analysis. The notebook includes summary statistics, missing value checks, and data visualizations.
@@ -213,3 +217,11 @@ uvx pre-commit run --all-files
 Set up the Python environment:
 
 uv sync --extra dev --extra docs --upgrade
+
+## Technical Modification
+
+As a modification to the original EDA notebook, I added a histogram visualization of penguin body mass (body_mass_g). This provided a clearer view of the distribution of values rather than only relying on summary statistics.
+
+The histogram shows that most penguins fall within a mid-range body mass, with fewer observations at the lower and higher extremes. This suggests a relatively centered distribution across the dataset.
+
+To support this change, I also added a new logging statement in the notebook to record this insight during execution.
