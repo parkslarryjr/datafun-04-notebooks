@@ -189,7 +189,7 @@ Remove unnecessary instructional comments in your final version of this README.m
 
 ![Provide a Useful Caption](./docs/images/Figure_3.png)
 
-[Penguin Body Mass Histogram](./docs/images/Figure_4.png)
+![Penguin Body Mass Histogram](./docs/images/Figure_4.png)
 
 This histogram shows that penguin body mass is moderately concentrated in the mid-range, with fewer observations at the low and high extremes. This helps confirm that the dataset has a fairly balanced but slightly centered distribution.
 
