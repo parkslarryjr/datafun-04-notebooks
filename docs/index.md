@@ -13,7 +13,7 @@ This project explores historical AFC Championship game data using Python and Jup
 
 3. Select the `.venv` Python environment as your Jupyter kernel
 
-4. Open:
+4. Open the notebook:
    notebooks/eda_afc.ipynb
 
 5. Run cells individually or click "Run All"
@@ -25,33 +25,46 @@ This project explores historical AFC Championship game data using Python and Jup
 ### Correlation Heatmap
 ![Heatmap](images/afc_1.png)
 
-### Scatter Plot (Flipper Length vs Body Mass)
+### Offensive Production Comparison (Scatter Plot)
 ![Scatter Plot](images/afc_2.png)
 
-### Box Plot (Flipper Length by Group)
+### Distribution of Team Performance (Box Plot)
 ![Box Plot](images/afc_3.png)
 
-### Histogram (Body Mass Distribution)
+### Turnover Distribution (Histogram)
 ![Histogram](images/afc_4.png)
 
 ---
 
 ## Key Insights
-- Teams with higher total yards generally had better outcomes
-- Turnovers strongly influenced game results
-- Passing yards showed more variability than rushing yards
-- Certain teams consistently performed better in AFC Championship games
+- Winning teams generally had higher total yard production than losing teams
+- Turnovers strongly impacted game outcomes across seasons
+- Passing yards showed higher variability than rushing yards
+- Some teams consistently performed better in AFC Championship matchups
+- Statistical differences between winners and losers become more pronounced in recent years
+
+---
+
+## Data Description
+The dataset contains AFC Championship game results including:
+- Final scores
+- Team names (winning and losing teams)
+- Passing yards
+- Rushing yards
+- Total yards
+- Turnovers
 
 ---
 
 ## Data Source
-AFC Championship historical dataset used for exploratory data analysis practice.
+Historical AFC Championship game statistics compiled for exploratory data analysis purposes.
 
 ---
 
 ## Tools Used
 - Python
 - Pandas
+- NumPy
 - Seaborn
 - Matplotlib
 - Jupyter Notebook
