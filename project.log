@@ -2477,3 +2477,1031 @@ body_mass_g              0.595110      -0.471916           0.871202     1.000000
 2026-05-29 13:08:03 | INFO | EDA-NB | ========================
 2026-05-29 13:08:03 | INFO | EDA-NB | Executed successfully!
 2026-05-29 13:08:03 | INFO | EDA-NB | ========================
+2026-06-02 07:35:40 | INFO | AFC-EDA-NB | === RUN START ===
+2026-06-02 07:35:40 | INFO | AFC-EDA-NB | project=AFC-EDA-NB
+2026-06-02 07:35:40 | INFO | AFC-EDA-NB | repo_dir=datafun-04-notebooks
+2026-06-02 07:35:40 | INFO | AFC-EDA-NB | python=3.14.5
+2026-06-02 07:35:40 | INFO | AFC-EDA-NB | os=Windows 11
+2026-06-02 07:35:40 | INFO | AFC-EDA-NB | shell=powershell
+2026-06-02 07:35:40 | INFO | AFC-EDA-NB | cwd=notebooks
+2026-06-02 07:35:40 | INFO | AFC-EDA-NB | github_actions=False
+2026-06-02 07:35:40 | INFO | AFC-EDA-NB | AFC Championship EDA setup complete.
+2026-06-02 07:35:40 | INFO | AFC-EDA-NB | Loading dataset: afc_championship
+2026-06-02 07:35:40 | INFO | AFC-EDA-NB | Loaded: 53 rows, 13 columns
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | === RUN START ===
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | project=AFC-EDA-NB
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | repo_dir=datafun-04-notebooks
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | python=3.14.5
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | os=Windows 11
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | shell=powershell
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | cwd=notebooks
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | github_actions=False
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | AFC Championship EDA setup complete.
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | Loading dataset: afc_championship
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | Loaded: 53 rows, 13 columns
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | Previewing first few rows of the AFC Championship dataset
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | Column names
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | DataFrame info (types and non-null counts)
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | Dataset shape: 53 rows, 13 columns
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | Building starter data dictionary
+2026-06-02 07:36:02 | DEBUG | AFC-EDA-NB | 
+               column  dtype  missing_count  missing_pct
+0                Year  int64              0          0.0
+1   Winning_Team_(WT)    str              0          0.0
+2         Final_Score  int64              0          0.0
+3    Losing_Team_(LT)    str              0          0.0
+4         Final_Score  int64              0          0.0
+5       WT_Rush_Yards  int64              0          0.0
+6       WT_Pass_Yards  int64              0          0.0
+7      WT_Total_Yards  int64              0          0.0
+8       LT_Rush_Yards  int64              0          0.0
+9       LT_Pass_Yards  int64              0          0.0
+10     LT_Total_Yards  int64              0          0.0
+11       WT_turnovers  int64              0          0.0
+12       LT_turnovers  int64              0          0.0
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | Missing values per column:
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | Checking missing values per column
+2026-06-02 07:36:02 | DEBUG | AFC-EDA-NB | 
+Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | Duplicate rows detected: 0
+2026-06-02 07:36:02 | INFO | AFC-EDA-NB | Call describe() for numeric columns
+2026-06-02 07:36:15 | INFO | AFC-EDA-NB | Loading dataset: afc_championship
+2026-06-02 07:36:15 | INFO | AFC-EDA-NB | Loaded: 53 rows, 13 columns
+2026-06-02 07:36:15 | INFO | AFC-EDA-NB | Previewing first few rows of the AFC Championship dataset
+2026-06-02 07:36:15 | INFO | AFC-EDA-NB | Column names
+2026-06-02 07:36:15 | INFO | AFC-EDA-NB | DataFrame info (types and non-null counts)
+2026-06-02 07:36:15 | INFO | AFC-EDA-NB | Dataset shape: 53 rows, 13 columns
+2026-06-02 07:36:15 | INFO | AFC-EDA-NB | Building starter data dictionary
+2026-06-02 07:36:15 | DEBUG | AFC-EDA-NB | 
+               column  dtype  missing_count  missing_pct
+0                Year  int64              0          0.0
+1   Winning_Team_(WT)    str              0          0.0
+2         Final_Score  int64              0          0.0
+3    Losing_Team_(LT)    str              0          0.0
+4         Final_Score  int64              0          0.0
+5       WT_Rush_Yards  int64              0          0.0
+6       WT_Pass_Yards  int64              0          0.0
+7      WT_Total_Yards  int64              0          0.0
+8       LT_Rush_Yards  int64              0          0.0
+9       LT_Pass_Yards  int64              0          0.0
+10     LT_Total_Yards  int64              0          0.0
+11       WT_turnovers  int64              0          0.0
+12       LT_turnovers  int64              0          0.0
+2026-06-02 07:36:15 | INFO | AFC-EDA-NB | Missing values per column:
+2026-06-02 07:36:15 | INFO | AFC-EDA-NB | Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:36:15 | INFO | AFC-EDA-NB | Checking missing values per column
+2026-06-02 07:36:15 | DEBUG | AFC-EDA-NB | 
+Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:36:15 | INFO | AFC-EDA-NB | Duplicate rows detected: 0
+2026-06-02 07:36:15 | INFO | AFC-EDA-NB | Call describe() for numeric columns
+2026-06-02 07:36:26 | INFO | AFC-EDA-NB | Previewing first few rows of the AFC Championship dataset
+2026-06-02 07:36:26 | INFO | AFC-EDA-NB | Column names
+2026-06-02 07:36:26 | INFO | AFC-EDA-NB | DataFrame info (types and non-null counts)
+2026-06-02 07:36:26 | INFO | AFC-EDA-NB | Dataset shape: 53 rows, 13 columns
+2026-06-02 07:36:26 | INFO | AFC-EDA-NB | Building starter data dictionary
+2026-06-02 07:36:26 | DEBUG | AFC-EDA-NB | 
+               column  dtype  missing_count  missing_pct
+0                Year  int64              0          0.0
+1   Winning_Team_(WT)    str              0          0.0
+2         Final_Score  int64              0          0.0
+3    Losing_Team_(LT)    str              0          0.0
+4         Final_Score  int64              0          0.0
+5       WT_Rush_Yards  int64              0          0.0
+6       WT_Pass_Yards  int64              0          0.0
+7      WT_Total_Yards  int64              0          0.0
+8       LT_Rush_Yards  int64              0          0.0
+9       LT_Pass_Yards  int64              0          0.0
+10     LT_Total_Yards  int64              0          0.0
+11       WT_turnovers  int64              0          0.0
+12       LT_turnovers  int64              0          0.0
+2026-06-02 07:36:26 | INFO | AFC-EDA-NB | Missing values per column:
+2026-06-02 07:36:26 | INFO | AFC-EDA-NB | Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:36:26 | INFO | AFC-EDA-NB | Checking missing values per column
+2026-06-02 07:36:26 | DEBUG | AFC-EDA-NB | 
+Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:36:26 | INFO | AFC-EDA-NB | Duplicate rows detected: 0
+2026-06-02 07:36:26 | INFO | AFC-EDA-NB | Call describe() for numeric columns
+2026-06-02 07:36:35 | INFO | AFC-EDA-NB | Column names
+2026-06-02 07:36:35 | INFO | AFC-EDA-NB | DataFrame info (types and non-null counts)
+2026-06-02 07:36:35 | INFO | AFC-EDA-NB | Dataset shape: 53 rows, 13 columns
+2026-06-02 07:36:35 | INFO | AFC-EDA-NB | Building starter data dictionary
+2026-06-02 07:36:35 | DEBUG | AFC-EDA-NB | 
+               column  dtype  missing_count  missing_pct
+0                Year  int64              0          0.0
+1   Winning_Team_(WT)    str              0          0.0
+2         Final_Score  int64              0          0.0
+3    Losing_Team_(LT)    str              0          0.0
+4         Final_Score  int64              0          0.0
+5       WT_Rush_Yards  int64              0          0.0
+6       WT_Pass_Yards  int64              0          0.0
+7      WT_Total_Yards  int64              0          0.0
+8       LT_Rush_Yards  int64              0          0.0
+9       LT_Pass_Yards  int64              0          0.0
+10     LT_Total_Yards  int64              0          0.0
+11       WT_turnovers  int64              0          0.0
+12       LT_turnovers  int64              0          0.0
+2026-06-02 07:36:35 | INFO | AFC-EDA-NB | Missing values per column:
+2026-06-02 07:36:35 | INFO | AFC-EDA-NB | Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:36:35 | INFO | AFC-EDA-NB | Checking missing values per column
+2026-06-02 07:36:35 | DEBUG | AFC-EDA-NB | 
+Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:36:35 | INFO | AFC-EDA-NB | Duplicate rows detected: 0
+2026-06-02 07:36:35 | INFO | AFC-EDA-NB | Call describe() for numeric columns
+2026-06-02 07:36:49 | INFO | AFC-EDA-NB | DataFrame info (types and non-null counts)
+2026-06-02 07:36:49 | INFO | AFC-EDA-NB | Dataset shape: 53 rows, 13 columns
+2026-06-02 07:36:49 | INFO | AFC-EDA-NB | Building starter data dictionary
+2026-06-02 07:36:49 | DEBUG | AFC-EDA-NB | 
+               column  dtype  missing_count  missing_pct
+0                Year  int64              0          0.0
+1   Winning_Team_(WT)    str              0          0.0
+2         Final_Score  int64              0          0.0
+3    Losing_Team_(LT)    str              0          0.0
+4         Final_Score  int64              0          0.0
+5       WT_Rush_Yards  int64              0          0.0
+6       WT_Pass_Yards  int64              0          0.0
+7      WT_Total_Yards  int64              0          0.0
+8       LT_Rush_Yards  int64              0          0.0
+9       LT_Pass_Yards  int64              0          0.0
+10     LT_Total_Yards  int64              0          0.0
+11       WT_turnovers  int64              0          0.0
+12       LT_turnovers  int64              0          0.0
+2026-06-02 07:36:49 | INFO | AFC-EDA-NB | Missing values per column:
+2026-06-02 07:36:49 | INFO | AFC-EDA-NB | Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:36:49 | INFO | AFC-EDA-NB | Checking missing values per column
+2026-06-02 07:36:49 | DEBUG | AFC-EDA-NB | 
+Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:36:49 | INFO | AFC-EDA-NB | Duplicate rows detected: 0
+2026-06-02 07:36:49 | INFO | AFC-EDA-NB | Call describe() for numeric columns
+2026-06-02 07:37:57 | INFO | AFC-EDA-NB | AFC Championship dataset column names
+2026-06-02 07:37:57 | INFO | AFC-EDA-NB | DataFrame info (types and non-null counts)
+2026-06-02 07:37:57 | INFO | AFC-EDA-NB | Dataset shape: 53 rows, 13 columns
+2026-06-02 07:37:57 | INFO | AFC-EDA-NB | Building starter data dictionary
+2026-06-02 07:37:57 | DEBUG | AFC-EDA-NB | 
+               column  dtype  missing_count  missing_pct
+0                Year  int64              0          0.0
+1   Winning_Team_(WT)    str              0          0.0
+2         Final_Score  int64              0          0.0
+3    Losing_Team_(LT)    str              0          0.0
+4         Final_Score  int64              0          0.0
+5       WT_Rush_Yards  int64              0          0.0
+6       WT_Pass_Yards  int64              0          0.0
+7      WT_Total_Yards  int64              0          0.0
+8       LT_Rush_Yards  int64              0          0.0
+9       LT_Pass_Yards  int64              0          0.0
+10     LT_Total_Yards  int64              0          0.0
+11       WT_turnovers  int64              0          0.0
+12       LT_turnovers  int64              0          0.0
+2026-06-02 07:37:57 | INFO | AFC-EDA-NB | Missing values per column:
+2026-06-02 07:37:57 | INFO | AFC-EDA-NB | Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:37:57 | INFO | AFC-EDA-NB | Checking missing values per column
+2026-06-02 07:37:57 | DEBUG | AFC-EDA-NB | 
+Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:37:57 | INFO | AFC-EDA-NB | Duplicate rows detected: 0
+2026-06-02 07:37:57 | INFO | AFC-EDA-NB | Call describe() for numeric columns
+2026-06-02 07:38:26 | INFO | AFC-EDA-NB | AFC Championship dataset info (types and non-null counts)
+2026-06-02 07:38:26 | INFO | AFC-EDA-NB | Dataset shape: 53 rows, 13 columns
+2026-06-02 07:38:26 | INFO | AFC-EDA-NB | Building starter data dictionary
+2026-06-02 07:38:26 | DEBUG | AFC-EDA-NB | 
+               column  dtype  missing_count  missing_pct
+0                Year  int64              0          0.0
+1   Winning_Team_(WT)    str              0          0.0
+2         Final_Score  int64              0          0.0
+3    Losing_Team_(LT)    str              0          0.0
+4         Final_Score  int64              0          0.0
+5       WT_Rush_Yards  int64              0          0.0
+6       WT_Pass_Yards  int64              0          0.0
+7      WT_Total_Yards  int64              0          0.0
+8       LT_Rush_Yards  int64              0          0.0
+9       LT_Pass_Yards  int64              0          0.0
+10     LT_Total_Yards  int64              0          0.0
+11       WT_turnovers  int64              0          0.0
+12       LT_turnovers  int64              0          0.0
+2026-06-02 07:38:26 | INFO | AFC-EDA-NB | Missing values per column:
+2026-06-02 07:38:26 | INFO | AFC-EDA-NB | Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:38:26 | INFO | AFC-EDA-NB | Checking missing values per column
+2026-06-02 07:38:26 | DEBUG | AFC-EDA-NB | 
+Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:38:26 | INFO | AFC-EDA-NB | Duplicate rows detected: 0
+2026-06-02 07:38:26 | INFO | AFC-EDA-NB | Call describe() for numeric columns
+2026-06-02 07:39:03 | INFO | AFC-EDA-NB | AFC Championship dataset shape: 53 rows, 13 columns
+2026-06-02 07:39:03 | INFO | AFC-EDA-NB | Building starter data dictionary
+2026-06-02 07:39:03 | DEBUG | AFC-EDA-NB | 
+               column  dtype  missing_count  missing_pct
+0                Year  int64              0          0.0
+1   Winning_Team_(WT)    str              0          0.0
+2         Final_Score  int64              0          0.0
+3    Losing_Team_(LT)    str              0          0.0
+4         Final_Score  int64              0          0.0
+5       WT_Rush_Yards  int64              0          0.0
+6       WT_Pass_Yards  int64              0          0.0
+7      WT_Total_Yards  int64              0          0.0
+8       LT_Rush_Yards  int64              0          0.0
+9       LT_Pass_Yards  int64              0          0.0
+10     LT_Total_Yards  int64              0          0.0
+11       WT_turnovers  int64              0          0.0
+12       LT_turnovers  int64              0          0.0
+2026-06-02 07:39:03 | INFO | AFC-EDA-NB | Missing values per column:
+2026-06-02 07:39:03 | INFO | AFC-EDA-NB | Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:39:03 | INFO | AFC-EDA-NB | Checking missing values per column
+2026-06-02 07:39:03 | DEBUG | AFC-EDA-NB | 
+Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:39:03 | INFO | AFC-EDA-NB | Duplicate rows detected: 0
+2026-06-02 07:39:03 | INFO | AFC-EDA-NB | Call describe() for numeric columns
+2026-06-02 07:44:18 | INFO | AFC-EDA-NB | Building AFC Championship dataset data dictionary
+2026-06-02 07:44:18 | DEBUG | AFC-EDA-NB | 
+               column  dtype  missing_count  missing_pct
+0                Year  int64              0          0.0
+1   Winning_Team_(WT)    str              0          0.0
+2         Final_Score  int64              0          0.0
+3    Losing_Team_(LT)    str              0          0.0
+4         Final_Score  int64              0          0.0
+5       WT_Rush_Yards  int64              0          0.0
+6       WT_Pass_Yards  int64              0          0.0
+7      WT_Total_Yards  int64              0          0.0
+8       LT_Rush_Yards  int64              0          0.0
+9       LT_Pass_Yards  int64              0          0.0
+10     LT_Total_Yards  int64              0          0.0
+11       WT_turnovers  int64              0          0.0
+12       LT_turnovers  int64              0          0.0
+2026-06-02 07:44:18 | INFO | AFC-EDA-NB | Missing values per column:
+2026-06-02 07:44:18 | INFO | AFC-EDA-NB | Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:44:18 | INFO | AFC-EDA-NB | Checking missing values per column
+2026-06-02 07:44:18 | DEBUG | AFC-EDA-NB | 
+Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:44:18 | INFO | AFC-EDA-NB | Duplicate rows detected: 0
+2026-06-02 07:44:18 | INFO | AFC-EDA-NB | Call describe() for numeric columns
+2026-06-02 07:44:52 | INFO | AFC-EDA-NB | AFC Championship dataset missing values per column:
+2026-06-02 07:44:52 | INFO | AFC-EDA-NB | Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:44:52 | INFO | AFC-EDA-NB | Checking missing values per column (sorted)
+2026-06-02 07:44:52 | DEBUG | AFC-EDA-NB | 
+Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:44:52 | INFO | AFC-EDA-NB | AFC Championship dataset duplicate rows detected: 0
+2026-06-02 07:44:52 | INFO | AFC-EDA-NB | Summary statistics for AFC Championship numeric columns
+2026-06-02 07:47:08 | INFO | AFC-EDA-NB | AFC Championship dataset missing values per column:
+2026-06-02 07:47:08 | INFO | AFC-EDA-NB | Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:47:08 | INFO | AFC-EDA-NB | Checking missing values per column (sorted)
+2026-06-02 07:47:08 | DEBUG | AFC-EDA-NB | 
+Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 07:47:08 | INFO | AFC-EDA-NB | AFC Championship dataset duplicate rows detected: 0
+2026-06-02 07:47:08 | INFO | AFC-EDA-NB | Summary statistics for AFC Championship numeric columns
+2026-06-02 07:47:08 | DEBUG | AFC-EDA-NB | 
+              Year  Final_Score  Final_Score  WT_Rush_Yards  WT_Pass_Yards  WT_Total_Yards  LT_Rush_Yards  \
+count    53.000000    53.000000    53.000000      53.000000      53.000000       53.000000      53.000000   
+mean   1996.000000    27.849057    15.622642     135.132075     214.132075      349.264151      88.094340   
+std      15.443445     8.549395     7.920826      51.571473      92.870058       82.707815      36.501456   
+min    1970.000000    10.000000     0.000000      42.000000      26.000000      198.000000      14.000000   
+25%    1983.000000    23.000000    10.000000     101.000000     160.000000      289.000000      66.000000   
+50%    1996.000000    27.000000    16.000000     126.000000     205.000000      347.000000      86.000000   
+75%    2009.000000    34.000000    20.000000     175.000000     268.000000      389.000000     107.000000   
+max    2022.000000    51.000000    34.000000     266.000000     435.000000      569.000000     163.000000   
+
+       LT_Pass_Yards  LT_Total_Yards  WT_turnovers  LT_turnovers  
+count      53.000000       53.000000     53.000000     53.000000  
+mean      222.962264      311.056604      1.509434      3.018868  
+std        68.708963       73.761678      1.395358      1.956160  
+min        70.000000      142.000000      0.000000      0.000000  
+25%       188.000000      278.000000      1.000000      2.000000  
+50%       225.000000      309.000000      1.000000      3.000000  
+75%       256.000000      363.000000      2.000000      4.000000  
+max       356.000000      464.000000      7.000000      9.000000  
+
+2026-06-02 07:47:08 | DEBUG | AFC-EDA-NB | Columns required to be non-missing: ['WT_Rush_Yards', 'WT_Pass_Yards', 'WT_Total_Yards', 'LT_Rush_Yards', 'LT_Pass_Yards', 'LT_Total_Yards', 'WT_Turnovers', 'LT_Turnovers', 'WT_Team']
+2026-06-02 07:49:05 | INFO | AFC-EDA-NB | AFC dataset original rows: 53
+2026-06-02 07:49:05 | INFO | AFC-EDA-NB | AFC dataset clean rows: 53
+2026-06-02 07:49:05 | INFO | AFC-EDA-NB | No rows removed - dataset already complete
+2026-06-02 07:49:05 | INFO | AFC-EDA-NB | --------------- Manual statistics ---------------
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB | --------------- AFC Championship Manual Statistics ---------------
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB | Winning Team Total Yards Statistics:
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB |   Mean: 349.26
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB |   Std Dev: 81.92
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB |   Min: 198
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB |   Max: 569
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB |   Range: 371
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB | Losing Team Total Yards Statistics:
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB |   Mean: 311.06
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB |   Std Dev: 73.06
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB |   Min: 142
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB |   Max: 464
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB |   Range: 322
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB | Turnover Averages:
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB |   Winning Teams Avg Turnovers: 1.51
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB |   Losing Teams Avg Turnovers: 3.02
+2026-06-02 07:50:26 | INFO | AFC-EDA-NB | Computing overall descriptive statistics
+2026-06-02 07:51:09 | INFO | AFC-EDA-NB | --------------- AFC Championship Descriptive Statistics ---------------
+2026-06-02 07:51:09 | INFO | AFC-EDA-NB | Overall AFC Championship Statistics:
+2026-06-02 07:51:09 | DEBUG | AFC-EDA-NB | 
+                count         mean        std     min     25%     50%     75%     max
+Year             53.0  1996.000000  15.443445  1970.0  1983.0  1996.0  2009.0  2022.0
+Final_Score      53.0    27.849057   8.549395    10.0    23.0    27.0    34.0    51.0
+Final_Score      53.0    15.622642   7.920826     0.0    10.0    16.0    20.0    34.0
+WT_Rush_Yards    53.0   135.132075  51.571473    42.0   101.0   126.0   175.0   266.0
+WT_Pass_Yards    53.0   214.132075  92.870058    26.0   160.0   205.0   268.0   435.0
+WT_Total_Yards   53.0   349.264151  82.707815   198.0   289.0   347.0   389.0   569.0
+LT_Rush_Yards    53.0    88.094340  36.501456    14.0    66.0    86.0   107.0   163.0
+LT_Pass_Yards    53.0   222.962264  68.708963    70.0   188.0   225.0   256.0   356.0
+LT_Total_Yards   53.0   311.056604  73.761678   142.0   278.0   309.0   363.0   464.0
+WT_turnovers     53.0     1.509434   1.395358     0.0     1.0     1.0     2.0     7.0
+LT_turnovers     53.0     3.018868   1.956160     0.0     2.0     3.0     4.0     9.0
+2026-06-02 07:51:09 | INFO | AFC-EDA-NB | Computing simplified group-style comparisons (WT vs LT performance)
+2026-06-02 07:51:09 | INFO | AFC-EDA-NB | Winning vs Losing Team Averages:
+2026-06-02 07:51:09 | DEBUG | AFC-EDA-NB | 
+             Winning_Team_Avg  Losing_Team_Avg
+Rush Yards         135.132075        88.094340
+Pass Yards         214.132075       222.962264
+Total Yards        349.264151       311.056604
+Turnovers            1.509434         3.018868
+2026-06-02 07:51:09 | INFO | AFC-EDA-NB | --------------- Improving the output ---------------
+2026-06-02 07:51:52 | INFO | AFC-EDA-NB | --------------- AFC Championship Insight Summary ---------------
+2026-06-02 07:51:52 | INFO | AFC-EDA-NB | Key AFC Championship Insights:
+2026-06-02 07:51:52 | INFO | AFC-EDA-NB | Winning teams average total yards: 349.26
+2026-06-02 07:51:52 | INFO | AFC-EDA-NB | Losing teams average total yards:  311.06
+2026-06-02 07:51:52 | INFO | AFC-EDA-NB | Average yardage advantage:         38.21
+2026-06-02 07:51:52 | INFO | AFC-EDA-NB | Winning teams avg turnovers: 1.51
+2026-06-02 07:51:52 | INFO | AFC-EDA-NB | Losing teams avg turnovers:  3.02
+2026-06-02 07:51:52 | INFO | AFC-EDA-NB | Turnover disadvantage for losers: 1.51
+2026-06-02 07:51:52 | INFO | AFC-EDA-NB | Computing correlation matrix for numeric columns
+2026-06-02 07:51:52 | INFO | AFC-EDA-NB | 
+Correlation matrix:
+2026-06-02 07:51:52 | DEBUG | AFC-EDA-NB | 
+                    Year  Final_Score  Final_Score  WT_Rush_Yards  WT_Pass_Yards  WT_Total_Yards  LT_Rush_Yards  \
+Year            1.000000     0.187746     0.377148      -0.484197       0.479216        0.236181       0.008836   
+Final_Score     0.187746     1.000000     0.430795       0.221706       0.537966        0.742307       0.324806   
+Final_Score     0.377148     0.430795     1.000000      -0.202310       0.554660        0.496663       0.256738   
+WT_Rush_Yards  -0.484197     0.221706    -0.202310       1.000000      -0.463924        0.102612      -0.071855   
+WT_Pass_Yards   0.479216     0.537966     0.554660      -0.463924       1.000000        0.833595       0.162164   
+WT_Total_Yards  0.236181     0.742307     0.496663       0.102612       0.833595        1.000000       0.137284   
+LT_Rush_Yards   0.008836     0.324806     0.256738      -0.071855       0.162164        0.137284       1.000000   
+LT_Pass_Yards   0.272612     0.053516     0.445909      -0.234539       0.328985        0.223163      -0.122109   
+LT_Total_Yards  0.258310     0.210583     0.542413      -0.254031       0.386697        0.275812       0.381112   
+WT_turnovers   -0.282003    -0.225564    -0.283286       0.242235      -0.221794       -0.098003      -0.018330   
+LT_turnovers   -0.408680     0.120912    -0.411591       0.304786      -0.230146       -0.068377       0.055456   
+
+                LT_Pass_Yards  LT_Total_Yards  WT_turnovers  LT_turnovers  
+Year                 0.272612        0.258310     -0.282003     -0.408680  
+Final_Score          0.053516        0.210583     -0.225564      0.120912  
+Final_Score          0.445909        0.542413     -0.283286     -0.411591  
+WT_Rush_Yards       -0.234539       -0.254031      0.242235      0.304786  
+WT_Pass_Yards        0.328985        0.386697     -0.221794     -0.230146  
+WT_Total_Yards       0.223163        0.275812     -0.098003     -0.068377  
+LT_Rush_Yards       -0.122109        0.381112     -0.018330      0.055456  
+LT_Pass_Yards        1.000000        0.871073     -0.370275     -0.296743  
+LT_Total_Yards       0.871073        1.000000     -0.353982     -0.248973  
+WT_turnovers        -0.370275       -0.353982      1.000000      0.412090  
+LT_turnovers        -0.296743       -0.248973      0.412090      1.000000  
+2026-06-02 07:51:52 | INFO | AFC-EDA-NB | ---------Visualize Correlation Matrix as a Heatmap---------------
+2026-06-02 07:51:53 | INFO | AFC-EDA-NB | ---- Creating Scatter Plot to see Relationships ------
+2026-06-02 07:51:53 | INFO | AFC-EDA-NB | ----   Use clean dataframe ---------------------------
+2026-06-02 07:51:53 | INFO | AFC-EDA-NB | ----   Set x to flipper length -----------------------
+2026-06-02 07:51:53 | INFO | AFC-EDA-NB | ----   Set y to bill length --------------------------
+2026-06-02 07:51:53 | INFO | AFC-EDA-NB | ----   Set the hue (color mapping) to the group column --
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | --------------- AFC Championship Correlation Analysis ---------------
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | Correlation matrix computed for AFC Championship dataset
+2026-06-02 07:53:05 | DEBUG | AFC-EDA-NB | 
+                    Year  Final_Score  Final_Score  WT_Rush_Yards  WT_Pass_Yards  WT_Total_Yards  LT_Rush_Yards  \
+Year            1.000000     0.187746     0.377148      -0.484197       0.479216        0.236181       0.008836   
+Final_Score     0.187746     1.000000     0.430795       0.221706       0.537966        0.742307       0.324806   
+Final_Score     0.377148     0.430795     1.000000      -0.202310       0.554660        0.496663       0.256738   
+WT_Rush_Yards  -0.484197     0.221706    -0.202310       1.000000      -0.463924        0.102612      -0.071855   
+WT_Pass_Yards   0.479216     0.537966     0.554660      -0.463924       1.000000        0.833595       0.162164   
+WT_Total_Yards  0.236181     0.742307     0.496663       0.102612       0.833595        1.000000       0.137284   
+LT_Rush_Yards   0.008836     0.324806     0.256738      -0.071855       0.162164        0.137284       1.000000   
+LT_Pass_Yards   0.272612     0.053516     0.445909      -0.234539       0.328985        0.223163      -0.122109   
+LT_Total_Yards  0.258310     0.210583     0.542413      -0.254031       0.386697        0.275812       0.381112   
+WT_turnovers   -0.282003    -0.225564    -0.283286       0.242235      -0.221794       -0.098003      -0.018330   
+LT_turnovers   -0.408680     0.120912    -0.411591       0.304786      -0.230146       -0.068377       0.055456   
+
+                LT_Pass_Yards  LT_Total_Yards  WT_turnovers  LT_turnovers  
+Year                 0.272612        0.258310     -0.282003     -0.408680  
+Final_Score          0.053516        0.210583     -0.225564      0.120912  
+Final_Score          0.445909        0.542413     -0.283286     -0.411591  
+WT_Rush_Yards       -0.234539       -0.254031      0.242235      0.304786  
+WT_Pass_Yards        0.328985        0.386697     -0.221794     -0.230146  
+WT_Total_Yards       0.223163        0.275812     -0.098003     -0.068377  
+LT_Rush_Yards       -0.122109        0.381112     -0.018330      0.055456  
+LT_Pass_Yards        1.000000        0.871073     -0.370275     -0.296743  
+LT_Total_Yards       0.871073        1.000000     -0.353982     -0.248973  
+WT_turnovers        -0.370275       -0.353982      1.000000      0.412090  
+LT_turnovers        -0.296743       -0.248973      0.412090      1.000000  
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | --------------- Key AFC Insight Correlations ---------------
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | WT Total Yards vs Pass Yards correlation: 0.83
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | LT Total Yards vs Pass Yards correlation: 0.87
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | WT Turnovers vs Total Yards correlation: -0.10
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | LT Turnovers vs Total Yards correlation: -0.25
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | ---------Visualize Correlation Matrix as a Heatmap---------------
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | ---- Creating Scatter Plot to see Relationships ------
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | ----   Use clean dataframe ---------------------------
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | ----   Set x to flipper length -----------------------
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | ----   Set y to bill length --------------------------
+2026-06-02 07:53:05 | INFO | AFC-EDA-NB | ----   Set the hue (color mapping) to the group column --
+2026-06-02 07:53:56 | INFO | AFC-EDA-NB | --------- AFC Championship Correlation Heatmap (Focused) ---------
+2026-06-02 07:53:56 | INFO | AFC-EDA-NB | Correlation matrix computed for AFC Championship key metrics
+2026-06-02 07:53:56 | DEBUG | AFC-EDA-NB | 
+                WT_Rush_Yards  WT_Pass_Yards  WT_Total_Yards  WT_turnovers  LT_Rush_Yards  LT_Pass_Yards  \
+WT_Rush_Yards        1.000000      -0.463924        0.102612      0.242235      -0.071855      -0.234539   
+WT_Pass_Yards       -0.463924       1.000000        0.833595     -0.221794       0.162164       0.328985   
+WT_Total_Yards       0.102612       0.833595        1.000000     -0.098003       0.137284       0.223163   
+WT_turnovers         0.242235      -0.221794       -0.098003      1.000000      -0.018330      -0.370275   
+LT_Rush_Yards       -0.071855       0.162164        0.137284     -0.018330       1.000000      -0.122109   
+LT_Pass_Yards       -0.234539       0.328985        0.223163     -0.370275      -0.122109       1.000000   
+LT_Total_Yards      -0.254031       0.386697        0.275812     -0.353982       0.381112       0.871073   
+LT_turnovers         0.304786      -0.230146       -0.068377      0.412090       0.055456      -0.296743   
+
+                LT_Total_Yards  LT_turnovers  
+WT_Rush_Yards        -0.254031      0.304786  
+WT_Pass_Yards         0.386697     -0.230146  
+WT_Total_Yards        0.275812     -0.068377  
+WT_turnovers         -0.353982      0.412090  
+LT_Rush_Yards         0.381112      0.055456  
+LT_Pass_Yards         0.871073     -0.296743  
+LT_Total_Yards        1.000000     -0.248973  
+LT_turnovers         -0.248973      1.000000  
+2026-06-02 07:53:56 | INFO | AFC-EDA-NB | Heatmap created showing relationships between AFC performance metrics
+2026-06-02 07:53:56 | INFO | AFC-EDA-NB | ---- Creating Scatter Plot to see Relationships ------
+2026-06-02 07:53:56 | INFO | AFC-EDA-NB | ----   Use clean dataframe ---------------------------
+2026-06-02 07:53:56 | INFO | AFC-EDA-NB | ----   Set x to flipper length -----------------------
+2026-06-02 07:53:56 | INFO | AFC-EDA-NB | ----   Set y to bill length --------------------------
+2026-06-02 07:53:56 | INFO | AFC-EDA-NB | ----   Set the hue (color mapping) to the group column --
+2026-06-02 07:59:10 | INFO | AFC-EDA-NB | ---- Creating Scatter Plot: AFC Offensive Relationships ------
+2026-06-02 07:59:10 | INFO | AFC-EDA-NB | ----   Using AFC Championship dataset ------------------------
+2026-06-02 07:59:10 | INFO | AFC-EDA-NB | ------- Creating another chart -------
+2026-06-02 07:59:10 | INFO | AFC-EDA-NB | ------ Creating Box Plot to see Distribution: ---------
+2026-06-02 07:59:10 | INFO | AFC-EDA-NB | ------   Use clean dataframe --------------------------
+2026-06-02 07:59:10 | INFO | AFC-EDA-NB | ------   Set x to the group column --------------------
+2026-06-02 07:59:10 | INFO | AFC-EDA-NB | ------   Set y to flipper length ----------------------
+2026-06-02 08:00:04 | INFO | AFC-EDA-NB | ------- Creating Box Plot: AFC Performance Distribution -------
+2026-06-02 08:00:04 | INFO | AFC-EDA-NB | ------ Box Plot: Comparing Winning vs Losing Team Metrics ------
+2026-06-02 08:00:39 | INFO | AFC-EDA-NB | Created histogram showing distribution of winning team total yards.
+2026-06-02 08:00:39 | INFO | AFC-EDA-NB | Insight: Most AFC Championship winners fall in a mid-to-high total yardage range, suggesting consistent offensive production is a strong indicator of success.
+2026-06-02 08:00:39 | INFO | AFC-EDA-NB | ========================
+2026-06-02 08:00:39 | INFO | AFC-EDA-NB | SUMMARY
+2026-06-02 08:00:39 | INFO | AFC-EDA-NB | ========================
+2026-06-02 08:00:39 | INFO | AFC-EDA-NB | Dataset: afc_championship
+2026-06-02 08:00:39 | INFO | AFC-EDA-NB | Original rows: 53
+2026-06-02 08:00:39 | INFO | AFC-EDA-NB | Clean rows:    53
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | ========================
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | AFC CHAMPIONSHIP SUMMARY
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | ========================
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | Dataset: AFC Championship Games
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | Original rows: 53
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | Clean rows:    53
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | Unique AFC Champions: ['Baltimore Colts\xa0', 'Baltimore Ravens\xa0', 'Buffalo Bills', 'Buffalo Bills\xa0', 'Cincinnati Bengals', 'Cincinnati Bengals\xa0', 'Denver Broncos', 'Denver Broncos\xa0', 'Indianapolis Colts\xa0', 'Kansas City Chiefs', 'Kansas City Chiefs\xa0', 'Los Angeles Raiders', 'Miami Dolphins', 'Miami Dolphins\xa0', 'New England Patriots', 'New England Patriots\xa0', 'Oakland Raiders', 'Oakland Raiders\xa0', 'Pittsburgh Steelers', 'Pittsburgh Steelers\xa0', 'San Diego Chargers\xa0', 'Tennessee Titans\xa0']
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | Key Insights:
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | Average Winning Team Total Yards: 349.26
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | Average Losing Team Total Yards:  311.06
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | Average Winning Team Turnovers:   1.51
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | Average Losing Team Turnovers:    3.02
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | Interpretation:
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | Winning teams consistently produce higher offensive yardage and fewer turnovers.
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | Turnovers appear to be a key differentiator in AFC Championship outcomes.
+2026-06-02 08:01:58 | INFO | AFC-EDA-NB | ========================
+2026-06-02 08:01:59 | INFO | AFC-EDA-NB | AFC EDA WORKFLOW COMPLETE
+2026-06-02 08:01:59 | INFO | AFC-EDA-NB | Executed successfully!
+2026-06-02 08:01:59 | INFO | AFC-EDA-NB | ========================
+2026-06-02 08:15:06 | INFO | AFC-EDA-NB | --------- AFC Championship Correlation Heatmap (Focused) ---------
+2026-06-02 08:15:06 | INFO | AFC-EDA-NB | Correlation matrix computed for AFC Championship key metrics
+2026-06-02 08:15:06 | DEBUG | AFC-EDA-NB | 
+                WT_Rush_Yards  WT_Pass_Yards  WT_Total_Yards  WT_turnovers  LT_Rush_Yards  LT_Pass_Yards  \
+WT_Rush_Yards        1.000000      -0.463924        0.102612      0.242235      -0.071855      -0.234539   
+WT_Pass_Yards       -0.463924       1.000000        0.833595     -0.221794       0.162164       0.328985   
+WT_Total_Yards       0.102612       0.833595        1.000000     -0.098003       0.137284       0.223163   
+WT_turnovers         0.242235      -0.221794       -0.098003      1.000000      -0.018330      -0.370275   
+LT_Rush_Yards       -0.071855       0.162164        0.137284     -0.018330       1.000000      -0.122109   
+LT_Pass_Yards       -0.234539       0.328985        0.223163     -0.370275      -0.122109       1.000000   
+LT_Total_Yards      -0.254031       0.386697        0.275812     -0.353982       0.381112       0.871073   
+LT_turnovers         0.304786      -0.230146       -0.068377      0.412090       0.055456      -0.296743   
+
+                LT_Total_Yards  LT_turnovers  
+WT_Rush_Yards        -0.254031      0.304786  
+WT_Pass_Yards         0.386697     -0.230146  
+WT_Total_Yards        0.275812     -0.068377  
+WT_turnovers         -0.353982      0.412090  
+LT_Rush_Yards         0.381112      0.055456  
+LT_Pass_Yards         0.871073     -0.296743  
+LT_Total_Yards        1.000000     -0.248973  
+LT_turnovers         -0.248973      1.000000  
+2026-06-02 08:15:37 | INFO | AFC-EDA-NB | --------- AFC Championship Correlation Heatmap (Focused) ---------
+2026-06-02 08:15:37 | INFO | AFC-EDA-NB | Correlation matrix computed for AFC Championship key metrics
+2026-06-02 08:15:37 | DEBUG | AFC-EDA-NB | 
+                WT_Rush_Yards  WT_Pass_Yards  WT_Total_Yards  WT_turnovers  LT_Rush_Yards  LT_Pass_Yards  \
+WT_Rush_Yards        1.000000      -0.463924        0.102612      0.242235      -0.071855      -0.234539   
+WT_Pass_Yards       -0.463924       1.000000        0.833595     -0.221794       0.162164       0.328985   
+WT_Total_Yards       0.102612       0.833595        1.000000     -0.098003       0.137284       0.223163   
+WT_turnovers         0.242235      -0.221794       -0.098003      1.000000      -0.018330      -0.370275   
+LT_Rush_Yards       -0.071855       0.162164        0.137284     -0.018330       1.000000      -0.122109   
+LT_Pass_Yards       -0.234539       0.328985        0.223163     -0.370275      -0.122109       1.000000   
+LT_Total_Yards      -0.254031       0.386697        0.275812     -0.353982       0.381112       0.871073   
+LT_turnovers         0.304786      -0.230146       -0.068377      0.412090       0.055456      -0.296743   
+
+                LT_Total_Yards  LT_turnovers  
+WT_Rush_Yards        -0.254031      0.304786  
+WT_Pass_Yards         0.386697     -0.230146  
+WT_Total_Yards        0.275812     -0.068377  
+WT_turnovers         -0.353982      0.412090  
+LT_Rush_Yards         0.381112      0.055456  
+LT_Pass_Yards         0.871073     -0.296743  
+LT_Total_Yards        1.000000     -0.248973  
+LT_turnovers         -0.248973      1.000000  
+2026-06-02 08:15:37 | INFO | AFC-EDA-NB | Heatmap created showing relationships between AFC performance metrics
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | === RUN START ===
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | project=AFC-EDA-NB
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | repo_dir=datafun-04-notebooks
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | python=3.14.5
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | os=Windows 11
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | shell=powershell
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | cwd=notebooks
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | github_actions=False
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | AFC Championship EDA setup complete.
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Loading dataset: afc_championship
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Loaded: 53 rows, 13 columns
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Previewing first few rows of the AFC Championship dataset
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | AFC Championship dataset column names
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | AFC Championship dataset info (types and non-null counts)
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | AFC Championship dataset shape: 53 rows, 13 columns
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Building AFC Championship dataset data dictionary
+2026-06-02 08:22:51 | DEBUG | AFC-EDA-NB | 
+               column  dtype  missing_count  missing_pct
+0                Year  int64              0          0.0
+1   Winning_Team_(WT)    str              0          0.0
+2         Final_Score  int64              0          0.0
+3    Losing_Team_(LT)    str              0          0.0
+4         Final_Score  int64              0          0.0
+5       WT_Rush_Yards  int64              0          0.0
+6       WT_Pass_Yards  int64              0          0.0
+7      WT_Total_Yards  int64              0          0.0
+8       LT_Rush_Yards  int64              0          0.0
+9       LT_Pass_Yards  int64              0          0.0
+10     LT_Total_Yards  int64              0          0.0
+11       WT_turnovers  int64              0          0.0
+12       LT_turnovers  int64              0          0.0
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | AFC Championship dataset missing values per column:
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Checking missing values per column (sorted)
+2026-06-02 08:22:51 | DEBUG | AFC-EDA-NB | 
+Year                 0
+Winning_Team_(WT)    0
+Final_Score          0
+Losing_Team_(LT)     0
+Final_Score          0
+WT_Rush_Yards        0
+WT_Pass_Yards        0
+WT_Total_Yards       0
+LT_Rush_Yards        0
+LT_Pass_Yards        0
+LT_Total_Yards       0
+WT_turnovers         0
+LT_turnovers         0
+dtype: int64
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | AFC Championship dataset duplicate rows detected: 0
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Summary statistics for AFC Championship numeric columns
+2026-06-02 08:22:51 | DEBUG | AFC-EDA-NB | 
+              Year  Final_Score  Final_Score  WT_Rush_Yards  WT_Pass_Yards  WT_Total_Yards  LT_Rush_Yards  \
+count    53.000000    53.000000    53.000000      53.000000      53.000000       53.000000      53.000000   
+mean   1996.000000    27.849057    15.622642     135.132075     214.132075      349.264151      88.094340   
+std      15.443445     8.549395     7.920826      51.571473      92.870058       82.707815      36.501456   
+min    1970.000000    10.000000     0.000000      42.000000      26.000000      198.000000      14.000000   
+25%    1983.000000    23.000000    10.000000     101.000000     160.000000      289.000000      66.000000   
+50%    1996.000000    27.000000    16.000000     126.000000     205.000000      347.000000      86.000000   
+75%    2009.000000    34.000000    20.000000     175.000000     268.000000      389.000000     107.000000   
+max    2022.000000    51.000000    34.000000     266.000000     435.000000      569.000000     163.000000   
+
+       LT_Pass_Yards  LT_Total_Yards  WT_turnovers  LT_turnovers  
+count      53.000000       53.000000     53.000000     53.000000  
+mean      222.962264      311.056604      1.509434      3.018868  
+std        68.708963       73.761678      1.395358      1.956160  
+min        70.000000      142.000000      0.000000      0.000000  
+25%       188.000000      278.000000      1.000000      2.000000  
+50%       225.000000      309.000000      1.000000      3.000000  
+75%       256.000000      363.000000      2.000000      4.000000  
+max       356.000000      464.000000      7.000000      9.000000  
+
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | AFC dataset original rows: 53
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | AFC dataset clean rows: 53
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | No rows removed - dataset already complete
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | --------------- AFC Championship Manual Statistics ---------------
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Winning Team Total Yards Statistics:
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB |   Mean: 349.26
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB |   Std Dev: 81.92
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB |   Min: 198
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB |   Max: 569
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB |   Range: 371
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Losing Team Total Yards Statistics:
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB |   Mean: 311.06
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB |   Std Dev: 73.06
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB |   Min: 142
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB |   Max: 464
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB |   Range: 322
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Turnover Averages:
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB |   Winning Teams Avg Turnovers: 1.51
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB |   Losing Teams Avg Turnovers: 3.02
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | --------------- AFC Championship Descriptive Statistics ---------------
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Overall AFC Championship Statistics:
+2026-06-02 08:22:51 | DEBUG | AFC-EDA-NB | 
+                count         mean        std     min     25%     50%     75%     max
+Year             53.0  1996.000000  15.443445  1970.0  1983.0  1996.0  2009.0  2022.0
+Final_Score      53.0    27.849057   8.549395    10.0    23.0    27.0    34.0    51.0
+Final_Score      53.0    15.622642   7.920826     0.0    10.0    16.0    20.0    34.0
+WT_Rush_Yards    53.0   135.132075  51.571473    42.0   101.0   126.0   175.0   266.0
+WT_Pass_Yards    53.0   214.132075  92.870058    26.0   160.0   205.0   268.0   435.0
+WT_Total_Yards   53.0   349.264151  82.707815   198.0   289.0   347.0   389.0   569.0
+LT_Rush_Yards    53.0    88.094340  36.501456    14.0    66.0    86.0   107.0   163.0
+LT_Pass_Yards    53.0   222.962264  68.708963    70.0   188.0   225.0   256.0   356.0
+LT_Total_Yards   53.0   311.056604  73.761678   142.0   278.0   309.0   363.0   464.0
+WT_turnovers     53.0     1.509434   1.395358     0.0     1.0     1.0     2.0     7.0
+LT_turnovers     53.0     3.018868   1.956160     0.0     2.0     3.0     4.0     9.0
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Computing simplified group-style comparisons (WT vs LT performance)
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Winning vs Losing Team Averages:
+2026-06-02 08:22:51 | DEBUG | AFC-EDA-NB | 
+             Winning_Team_Avg  Losing_Team_Avg
+Rush Yards         135.132075        88.094340
+Pass Yards         214.132075       222.962264
+Total Yards        349.264151       311.056604
+Turnovers            1.509434         3.018868
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | --------------- AFC Championship Insight Summary ---------------
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Key AFC Championship Insights:
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Winning teams average total yards: 349.26
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Losing teams average total yards:  311.06
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Average yardage advantage:         38.21
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Winning teams avg turnovers: 1.51
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Losing teams avg turnovers:  3.02
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Turnover disadvantage for losers: 1.51
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | --------------- AFC Championship Correlation Analysis ---------------
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Correlation matrix computed for AFC Championship dataset
+2026-06-02 08:22:51 | DEBUG | AFC-EDA-NB | 
+                    Year  Final_Score  Final_Score  WT_Rush_Yards  WT_Pass_Yards  WT_Total_Yards  LT_Rush_Yards  \
+Year            1.000000     0.187746     0.377148      -0.484197       0.479216        0.236181       0.008836   
+Final_Score     0.187746     1.000000     0.430795       0.221706       0.537966        0.742307       0.324806   
+Final_Score     0.377148     0.430795     1.000000      -0.202310       0.554660        0.496663       0.256738   
+WT_Rush_Yards  -0.484197     0.221706    -0.202310       1.000000      -0.463924        0.102612      -0.071855   
+WT_Pass_Yards   0.479216     0.537966     0.554660      -0.463924       1.000000        0.833595       0.162164   
+WT_Total_Yards  0.236181     0.742307     0.496663       0.102612       0.833595        1.000000       0.137284   
+LT_Rush_Yards   0.008836     0.324806     0.256738      -0.071855       0.162164        0.137284       1.000000   
+LT_Pass_Yards   0.272612     0.053516     0.445909      -0.234539       0.328985        0.223163      -0.122109   
+LT_Total_Yards  0.258310     0.210583     0.542413      -0.254031       0.386697        0.275812       0.381112   
+WT_turnovers   -0.282003    -0.225564    -0.283286       0.242235      -0.221794       -0.098003      -0.018330   
+LT_turnovers   -0.408680     0.120912    -0.411591       0.304786      -0.230146       -0.068377       0.055456   
+
+                LT_Pass_Yards  LT_Total_Yards  WT_turnovers  LT_turnovers  
+Year                 0.272612        0.258310     -0.282003     -0.408680  
+Final_Score          0.053516        0.210583     -0.225564      0.120912  
+Final_Score          0.445909        0.542413     -0.283286     -0.411591  
+WT_Rush_Yards       -0.234539       -0.254031      0.242235      0.304786  
+WT_Pass_Yards        0.328985        0.386697     -0.221794     -0.230146  
+WT_Total_Yards       0.223163        0.275812     -0.098003     -0.068377  
+LT_Rush_Yards       -0.122109        0.381112     -0.018330      0.055456  
+LT_Pass_Yards        1.000000        0.871073     -0.370275     -0.296743  
+LT_Total_Yards       0.871073        1.000000     -0.353982     -0.248973  
+WT_turnovers        -0.370275       -0.353982      1.000000      0.412090  
+LT_turnovers        -0.296743       -0.248973      0.412090      1.000000  
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | --------------- Key AFC Insight Correlations ---------------
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | WT Total Yards vs Pass Yards correlation: 0.83
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | LT Total Yards vs Pass Yards correlation: 0.87
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | WT Turnovers vs Total Yards correlation: -0.10
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | LT Turnovers vs Total Yards correlation: -0.25
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | --------- AFC Championship Correlation Heatmap (Focused) ---------
+2026-06-02 08:22:51 | INFO | AFC-EDA-NB | Correlation matrix computed for AFC Championship key metrics
+2026-06-02 08:22:51 | DEBUG | AFC-EDA-NB | 
+                WT_Rush_Yards  WT_Pass_Yards  WT_Total_Yards  WT_turnovers  LT_Rush_Yards  LT_Pass_Yards  \
+WT_Rush_Yards        1.000000      -0.463924        0.102612      0.242235      -0.071855      -0.234539   
+WT_Pass_Yards       -0.463924       1.000000        0.833595     -0.221794       0.162164       0.328985   
+WT_Total_Yards       0.102612       0.833595        1.000000     -0.098003       0.137284       0.223163   
+WT_turnovers         0.242235      -0.221794       -0.098003      1.000000      -0.018330      -0.370275   
+LT_Rush_Yards       -0.071855       0.162164        0.137284     -0.018330       1.000000      -0.122109   
+LT_Pass_Yards       -0.234539       0.328985        0.223163     -0.370275      -0.122109       1.000000   
+LT_Total_Yards      -0.254031       0.386697        0.275812     -0.353982       0.381112       0.871073   
+LT_turnovers         0.304786      -0.230146       -0.068377      0.412090       0.055456      -0.296743   
+
+                LT_Total_Yards  LT_turnovers  
+WT_Rush_Yards        -0.254031      0.304786  
+WT_Pass_Yards         0.386697     -0.230146  
+WT_Total_Yards        0.275812     -0.068377  
+WT_turnovers         -0.353982      0.412090  
+LT_Rush_Yards         0.381112      0.055456  
+LT_Pass_Yards         0.871073     -0.296743  
+LT_Total_Yards        1.000000     -0.248973  
+LT_turnovers         -0.248973      1.000000  
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Heatmap created showing relationships between AFC performance metrics
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | ---- Creating Scatter Plot: AFC Offensive Relationships ------
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | ----   Using AFC Championship dataset ------------------------
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | ------- Creating Box Plot: AFC Performance Distribution -------
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | ------ Box Plot: Comparing Winning vs Losing Team Metrics ------
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Created histogram showing distribution of winning team total yards.
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Insight: Most AFC Championship winners fall in a mid-to-high total yardage range, suggesting consistent offensive production is a strong indicator of success.
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | ========================
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | AFC CHAMPIONSHIP SUMMARY
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | ========================
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Dataset: AFC Championship Games
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Original rows: 53
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Clean rows:    53
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Unique AFC Champions: ['Baltimore Colts\xa0', 'Baltimore Ravens\xa0', 'Buffalo Bills', 'Buffalo Bills\xa0', 'Cincinnati Bengals', 'Cincinnati Bengals\xa0', 'Denver Broncos', 'Denver Broncos\xa0', 'Indianapolis Colts\xa0', 'Kansas City Chiefs', 'Kansas City Chiefs\xa0', 'Los Angeles Raiders', 'Miami Dolphins', 'Miami Dolphins\xa0', 'New England Patriots', 'New England Patriots\xa0', 'Oakland Raiders', 'Oakland Raiders\xa0', 'Pittsburgh Steelers', 'Pittsburgh Steelers\xa0', 'San Diego Chargers\xa0', 'Tennessee Titans\xa0']
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Key Insights:
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Average Winning Team Total Yards: 349.26
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Average Losing Team Total Yards:  311.06
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Average Winning Team Turnovers:   1.51
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Average Losing Team Turnovers:    3.02
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Interpretation:
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Winning teams consistently produce higher offensive yardage and fewer turnovers.
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Turnovers appear to be a key differentiator in AFC Championship outcomes.
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | ========================
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | AFC EDA WORKFLOW COMPLETE
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | Executed successfully!
+2026-06-02 08:22:52 | INFO | AFC-EDA-NB | ========================
