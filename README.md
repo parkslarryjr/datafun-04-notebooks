@@ -218,10 +218,14 @@ Set up the Python environment:
 
 uv sync --extra dev --extra docs --upgrade
 
-## Technical Modification
 
-As a modification to the original EDA notebook, I added a histogram visualization of penguin body mass (body_mass_g). This provided a clearer view of the distribution of values rather than only relying on summary statistics.
 
-The histogram shows that most penguins fall within a mid-range body mass, with fewer observations at the lower and higher extremes. This suggests a relatively centered distribution across the dataset.
+## Apply Skills to a New Dataset
 
-To support this change, I also added a new logging statement in the notebook to record this insight during execution.
+As part of applying EDA skills to a new dataset, I analyzed AFC Championship game data using Python and Jupyter Notebooks. This dataset was different from prior examples and required customizing column names, cleaning steps, and visualizations to match football game statistics.
+
+I explored relationships between key performance metrics such as rushing yards, passing yards, total yards, and turnovers. I used multiple visualization techniques including a correlation heatmap, scatter plot, box plot, and histogram to better understand patterns in the data.
+
+These visualizations helped reveal how offensive production and turnovers relate to game outcomes. The analysis showed that higher total yardage and fewer turnovers are generally associated with winning teams.
+
+To support this work, I used logging throughout the notebook to track progress and document key insights during execution.
